@@ -1,3 +1,8 @@
+## Front-end stack : Flutter web/android/ios
+
+## Back-end stack : Apollo & Node.js(TBD)
+
+
 # Apollo tutorial
 
 This is the fullstack app for the [Apollo tutorial](http://apollographql.com/docs/tutorial/introduction.html). 🚀
