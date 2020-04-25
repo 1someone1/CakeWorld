@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "rgb(190,190,200)",
+    "backgroundColor": "#666",
+    "navigationBarTitleText": "切糕世界",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#999999",
+    "selectedColor":"#07c160",
+    "backgroundColor":"#333333",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/assets/dashs.png",
+        "selectedIconPath": "pages/assets/dash.png",
+        "text": "常用"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "iconPath": "pages/assets/alls.png",
+        "selectedIconPath": "pages/assets/all.png",
+        "text": "全部"
+      }
+    ]
+  }
+}

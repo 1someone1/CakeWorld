@@ -1,0 +1,12 @@
+.container {
+  height: 550rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0rpx 0;
+  box-sizing: border-box;
+}
+.root{
+  background:linear-gradient(rgb(190,190,200),rgb(255,255,255))
+}

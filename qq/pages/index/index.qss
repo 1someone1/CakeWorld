@@ -1,0 +1,135 @@
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.skin{
+  margin-left:35%;
+  width:250rpx;
+  height:500rpx;
+}
+
+.slide-image{
+  border-radius: 30rpx;
+  width: 620rpx;
+  height:230rpx;
+  box-shadow: 5px 10px 15px rgba(0,0,0,.2);
+}
+
+.button-group{
+  margin-top:75rpx;
+  height:220rpx;
+  display:grid;
+  grid-template-columns: 38% 30% 30%;
+  grid-template-rows: 103% 103%;
+  grid-template-areas: 'a b b'
+                       'a c d';                       
+}
+
+.btn1{
+  grid-row:1/3;
+  grid-column:1;
+  height:450rpx;
+  width:240rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 0px 5px 15px rgba(0,0,0,.2);
+  align-items:center;
+  background:linear-gradient(rgb(66, 153, 244),rgb(140,230,255));
+  border-radius: 30rpx;
+}
+.btn2{
+  grid-row:1;
+  grid-column:2/4;
+  display:flex;
+  justify-content: space-evenly;
+  height:200rpx;
+  width:430rpx;
+  box-shadow: 0px 5px 15px rgba(0,0,0,.2);
+  align-items:center;
+  background:linear-gradient(rgb(52, 168, 83),rgb(130,230,180));
+  border-radius: 30rpx;
+}
+
+.btn3{
+  width:200rpx;
+  box-shadow: 0px 5px 15px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items:center;
+  background:linear-gradient(rgb(251, 188, 5),rgb(255,230,50));
+  border-radius: 30rpx;
+}
+
+.btn4{
+  width:200rpx;
+  box-shadow: 0px 5px 15px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items:center;
+
+  background:linear-gradient(rgb(234, 67, 53),rgb(255,150,140));
+  border-radius: 30rpx;
+}
+
+.btnImg1{
+  width:140rpx;
+  height:280rpx;
+}
+
+.btnImg2{
+  width:180rpx;
+  height:180rpx;
+}
+
+.btnImg{
+  width:100rpx;
+  height:100rpx;
+}
+
+.btnText{
+  color: rgb(255,255,255);
+  text-shadow:0px 2px 5px rgba(0,0,0,.6);
+}
+
+
+
+.hud{
+  position:fixed;
+  background-color:rgba(250,250,250,.3);
+  display:block;
+  border-radius:18px;
+  position: absolute;
+  top: 5px;
+  right: 13px;
+  width: 78px;
+  height: 50px;
+  text-align:center;
+  box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+}
+
+.info{
+  margin-top:5px;
+  display:block;
+  font-size:13px;
+  text-align:center;
+}
